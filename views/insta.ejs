@@ -1,0 +1,13 @@
+<%- include("includes/head.ejs"); %><!-- used as sub-templates so we dont need to write the particular code again and again -->
+<body>
+    <h2>this profile belongs to <%= username %></h2>
+    <button>Follow</button>
+    <button>Message</button>
+    <h3>Accounts that follow you</h3>
+    <ul>
+        <% for(let name of followers){ %>
+            <li><%= name %></li>
+        <%}%>
+    </ul>
+</body>
+</html>
