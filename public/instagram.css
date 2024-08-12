@@ -1,0 +1,16 @@
+.post-container{
+    height: 205px;
+    width: 205px;
+    display: inline-block;
+    margin: 0;
+}
+.post-container img{
+    height: 200px;
+    width: 200px;   
+}
+.post-container p{
+    width: 200px;   
+}
+body{
+    background-color: pink;
+}
